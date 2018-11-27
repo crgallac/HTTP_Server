@@ -5,9 +5,9 @@ package client;
 public class HTTP_RequestMessage {
 	
 
-		String method; 
-		String requestTarget; 
-		String version; 
+		public String method; 
+		public String requestTarget; 
+		public String version; 
 		
 		
 		String url;
@@ -15,8 +15,8 @@ public class HTTP_RequestMessage {
 		
 		Integer port; 
 		
-		HTTP_Header header; 
-		HTTP_Body body; 
+		public HTTP_Header header; 
+		public HTTP_Body body; 
 	    
 		boolean isVerbose = false; 
 	    boolean isOutputToFile = false; 

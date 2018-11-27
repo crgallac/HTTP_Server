@@ -4,9 +4,8 @@ package main;
 import java.io.IOException;
 import java.util.Scanner;
 
-import client.HttpcConsole;
 import echo.*;
-import server.HTTPfsServerSetup;
+import server.HTTPfs;
 import time.BlockingTimeClient;
 import time.BlockingTimeServer; 
 
@@ -27,7 +26,7 @@ public class Main {
 //			System.out.println(s); 
 //		}
 		
-		HTTPfsServerSetup server = new HTTPfsServerSetup(args); 
+		HTTPfs server = new HTTPfs(args); 
 		
 		
 //		    ServerStartingParams httpObject = createHTTPObject(arguments);
